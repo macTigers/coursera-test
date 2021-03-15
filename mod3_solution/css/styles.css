@@ -1,0 +1,90 @@
+body {
+font-size : 16px;
+font-family : oxygen, sans-serif;
+color : #333;
+}
+h1, h2, h3 {
+font-weight : bold;
+color : #333;
+}
+h2 {
+margin-bottom : 30px;
+}
+h1 > .navbar-brand {
+font-size : 32px;
+margin-bottom : 15px;
+}
+.navbar-default h1 a.navbar-brand {
+color : #333;
+}
+#bs-example-navbar-collapse-1, nav > .container-fluid {
+border-bottom : 2px solid #333;
+background-color : cornflowerblue;
+}
+#bs-example-navbar-collapse-1 {
+background-color : cornflowerblue;
+border : none;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+margin-left : 0;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus {
+border-color : #333;
+background-color : rgb(0, 0, 0, 0.2);
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color : #333;
+}
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+background-color : goldenrod;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle .collapse {
+background-color : rgb(255, 255, 255, 0.2);
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:active {
+background-color : rgb(255, 255, 255, 0.2);
+}
+.navbar-default button {
+position : absolute;
+right : 0;
+top : 15px;
+}
+.navbar-nav {
+margin-top : 0;
+}
+.navbar-nav li {
+border-top : 1px solid #333;
+}
+#main-content article {
+margin : 0 15px;
+}
+#section-chicken {
+height : 1000px;
+background-color : goldenrod;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color : goldenrod;
+}
+.navbar-default .navbar-nav > li > a {
+color : #333;
+font-weight : bold;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active a, .navbar-default .navbar-nav > li.active a:hover {
+color : #fff;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+#bs-example-navbar-collapse-1, nav > ul.nav {
+background-color : rgb(255, 255, 255, 0.3);
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+margin-left : 15px;
+}
+}
+@media (max-width: 575px) {
+#bs-example-navbar-collapse-1, nav > ul.nav {
+background-color : rgb(255, 255, 255, 0.3);
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+margin-left : 15px;
+}
+}
